@@ -29,11 +29,11 @@ MiDaS-small is loaded through `torch.hub` (`intel-isl/MiDaS`), which requires in
 
 ## Checkpoints
 
-| Model | Training data | Download |
-| --- | --- | --- |
-| Ours | RealEstate10K (64x64 + 256x256) | [re10k.ckpt](https://drive.google.com/file/d/1FQcIAODgqRUh3Vkymmg9Mhv1xDVMtafX/view?usp=sharing) |
+| Model | Training data | Re10k PSNR / SSIM / LPIPS | Download |
+| --- | --- | --- | --- |
+| Ours | RealEstate10K (64x64 + 256x256) | 25.952 / 0.848 / 0.141 | [re10k.ckpt](https://drive.google.com/file/d/1qE_SRjgbsGnJokJz5fNGbuZqnPUQK-L8/view?usp=sharing) |
 
-Put the checkpoint under `checkpoints/`.
+This is the checkpoint used for the numbers in the paper. Save it as `checkpoints/re10k.ckpt`.
 
 To train from scratch, the following pretrained weights are also required:
 
