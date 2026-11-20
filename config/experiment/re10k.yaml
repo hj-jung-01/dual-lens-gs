@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - override /dataset: re10k
+
+wandb:
+  name: re10k
+  tags: [re10k, 64x64_256x256]
+
+dataset:
+  roots: [datasets/re10k]

@@ -1,0 +1,13 @@
+# @package _global_
+
+defaults:
+  - override /dataset: dual_lens
+
+wandb:
+  name: dual_lens
+  tags: [dual_lens, 64x64_256x256]
+
+mode: test
+
+test:
+  save_image: true

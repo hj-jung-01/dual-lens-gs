@@ -1,0 +1,11 @@
+# @package _global_
+
+defaults:
+  - override /dataset: re10k
+
+wandb:
+  name: acid
+  tags: [acid, 64x64_256x256]
+
+dataset:
+  roots: [datasets/acid]

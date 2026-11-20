@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+outputs/
+datasets/
+wandb/
+lightning_logs/
+
+checkpoints/*
+!checkpoints/.gitkeep
+
+.vscode/
+.idea/
+.DS_Store
